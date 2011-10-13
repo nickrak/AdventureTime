@@ -1,0 +1,23 @@
+name: AdventureTime
+version: 1.0
+description: Renewable Adventure World
+author: nickrak
+website: http://github.com/nickrak/AdventureTime
+main: nickrak.adventuretime.AdventureTime
+commands:
+    beginadventure:
+        description: Goes to an adventure world.
+        permission: adventuretime.go
+    endadventure:
+        description: Returns to the real world.
+        permission: adventuretime.go
+    requestrespawn:
+        description: Request to return to an adventurer who is in a safe area.
+        permission: adventuretime.go
+    acceptrespawn:
+        description: An adventurer accepts a respawn request.
+        permisson: adventuretime.go
+permissions:
+    adventuretime.go:
+        description: Allows the player to play in Adventure Time.
+        default: yes
